@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+
+*{
+background-color: darkgrey;
+margin:0px;
+padding:0px;
+}
+
+header h1{
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-align:center;
+  background-color: aliceblue;
+  margin:0px;
+  padding:10px;
+  font-size:45px;
+}
+
+.score-board{
+  border:2px solid black;
+  width:200px;
+  margin:5px auto;
+  font-size:46px;
+  color:white;
+  padding:20px;
+  text-align: center;
+  position:relative;
+  border-radius:9px;
+}
+.badge{
+  background:orange;
+  font-size:30px;
+  padding:0px 20px;
+  border:2px solid  whitesmoke;
+  border-radius:10px;
+}
+#userscore{
+  position: absolute;
+  top: 35px;
+  left:-60px;
+}
+#comp{
+  position: absolute;
+  top:35px;
+  right:-110px;
+}
+.span span{
+  font-size: 60px;
+  color:cornsilk;
+}
+
+
+.result p{
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 45px;
+  text-align:center;
+  color:red;
+}
+
+.images{
+  margin: 30px;
+  text-align: center;
+ 
+}
+.choice{
+  border:2px solid black;
+  display:inline-block;
+  text-align:center;
+  padding:45px;
+  margin:5px 35px;
+  
+  border-radius:50%;
+  transition:all 0.3s ease;
+}
+.choice:hover{
+  background-color:darksalmon;
+}
+
+.last-line{
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size:30px;
+  color:red;
+  text-align:center;
+  font-style:bold;
+}
